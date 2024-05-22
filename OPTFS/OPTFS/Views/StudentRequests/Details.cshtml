@@ -1,0 +1,33 @@
+﻿@model OPTFS.Models.StudentRequest
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="offset-md-4 col-md-4">
+    <div style="text-align: center">
+        <h1 class="boldItalicText">StudentRequest Details</h1>
+    </div>
+
+    <div>        
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Student)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Student.FullName)
+            </dd>            
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.StatusId)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.StatusId)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" class="btn btn-lg defaultBtn" asp-route-id="@Model?.Id">Edit</a> |
+        <a asp-action="Index" class="btn btn-lg btn-danger">Back to List</a>
+    </div>
+</div>

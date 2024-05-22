@@ -1,0 +1,80 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model StudentCourse
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@{
+    var myUser = await UserManager.GetUserAsync(User);
+    int i = 0, rating = 0;
+    rating = Convert.ToInt32(Model.Rating);
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card border-dark mb-3">
+            <div class="card-header">
+                <div class="row">
+                    <div class="col-md-auto">
+                        <img class="logoSM rounded-circle" src="~/@Model.Student?.PersonalImageUrl" style="height:40px;width:40px;" />
+                    </div>
+
+                    <div class="col">
+                        <div class="row">
+                            <b class="trimeEct">@Model.Student?.FullName</b>
+                            <div style="position:absolute;top:20px;">
+                                <span>
+                                    @for (i = 0; i < rating; i++)
+                                    {
+                                        <i class="fa fa-star rating-color" style="font-size: 12px;"></i>
+                                    }
+                                    @while (i < 5)
+                                    {
+                                        <i class="fa fa-star" style="font-size: 12px;"></i>
+                                        i++;
+                                    }
+                                </span>
+                            </div>
+                        </div>
+                        <div>
+                            <p>
+                            </p>
+                        </div>
+                    </div>
+
+                    @if (Model.StudentId == myUser?.Id)
+                    {
+                        <div class="col-md-auto">
+                            @*<div class="dropdown">
+                                <a href="javascript:void(0);" class="dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i style="color:black">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                                            <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                                        </svg>
+                                    </i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="~/home/DeleteReview/@Model.Id">Delete</a></li>
+                                </ul>
+                            </div>*@
+
+                            <a href="~/home/DeleteReview/@Model.Id">
+                                <i class="fa fa-trash" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    }
+                    </div>
+            </div>
+            <div class="card-body text-dark">
+                @*<h5 class="card-title">Dark card title</h5>*@
+                <p class="card-text">@Model.ReviewText</p>
+            </div>
+            @*<div class="card-footer text-dark">
+                @if (Model.StudentId == myUser?.Id)
+                {
+                    <a href="~/home/DeleteReview/@Model.Id">
+                        <i class="fa fa-trash" aria-hidden="true"></i>
+                    </a>
+                }
+            </div>*@
+        </div>
+    </div>
+</div>

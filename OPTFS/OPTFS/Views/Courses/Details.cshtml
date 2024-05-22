@@ -1,0 +1,83 @@
+﻿@model OPTFS.Models.Course
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="offset-md-3 col-md-6">
+    <div style="text-align: center">
+        <h1 class="boldItalicText">Course Details</h1>
+    </div>
+
+    <div>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Subject)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Subject.Name)
+            </dd>
+            <dt class="col-sm-2">
+                Days:
+            </dt>
+            <dd class="col-md-10">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Sat" disabled /> @Html.DisplayNameFor(model => model.Sat)
+                </label>
+
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Sun" disabled/> @Html.DisplayNameFor(model => model.Sun)
+                </label>
+
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Mon" disabled/> @Html.DisplayNameFor(model => model.Mon)
+                </label>
+
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Tue" disabled/> @Html.DisplayNameFor(model => model.Tue)
+                </label>
+
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Wen" disabled/> @Html.DisplayNameFor(model => model.Wen)
+                </label>
+
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Thi" disabled/> @Html.DisplayNameFor(model => model.Thi)
+                </label>
+
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Fri" disabled /> @Html.DisplayNameFor(model => model.Fri)
+                </label>
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.LogoUrl)
+            </dt>
+            <dd class="col-sm-10">
+                <img src="~/@Model.LogoUrl" style="height:100px;width:100px;" class="img-thumbnail" />
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Active)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Active)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" class="btn btn-lg defaultBtn" asp-route-id="@Model?.Id">Edit</a> |
+        <a asp-action="Index" class="btn btn-lg btn-danger">Back to List</a>
+    </div>
+</div>

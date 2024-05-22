@@ -1,0 +1,54 @@
+﻿@model Course
+@{
+    int rating = Convert.ToInt32(Model.Rating);
+    int i = 0;
+    string Reviewers = string.Empty;
+}
+@*<div style="position:absolute;">
+        <span class="ratings">
+            <i class="fa fa-star rating-color"></i>
+            <i class="fa fa-star rating-color"></i>
+            <i class="fa fa-star rating-color"></i>
+            <i class="fa fa-star rating-color"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <span class="review-count">12 Reviews</span>
+    </div>*@
+
+@*<div style="position:absolute;top:15px;">
+        <span class="ratings">
+            @for (i = 0; i < rating; i++)
+            {
+                <i class="fa fa-star rating-color"></i>
+            }
+            @while (i < 5)
+            {
+                <i class="fa fa-star"></i>
+                i++;
+            }
+        </span>
+        <span class="review-count">@Model.TotalReviews Reviews</span>
+    </div>*@
+
+@*<div style="position:absolute;">
+        <span class="ratings">
+            <i class="fa fa-star rating-dark"> @Math.Round(Model.Rating,1)</i><br/>
+        </span>
+        <span class="review-count">@Model.TotalReviews Reviews</span>
+    </div>*@
+
+@if (Model.TotalReviews < 1000)
+{
+    Reviewers = @Model.TotalReviews.ToString();
+}
+else
+{
+    var Reviews = Convert.ToDouble(Model.TotalReviews) / 1000;
+    Reviewers = @Math.Round(Reviews, 3) + "K";
+}
+<div class="large-ratings">
+    <span>
+        @Math.Round(Model.Rating, 1) <i class="fa fa-star rating-dark"> </i> course rating .
+        (<span class="review-count">@Reviewers ratings</span>)
+    </span>
+</div>

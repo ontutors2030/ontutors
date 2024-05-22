@@ -1,0 +1,1030 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@if (string.IsNullOrWhiteSpace(ViewBag.SelectedPage))
+{
+    ViewBag.SelectedPage = "homeNavItem";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - OPTFS</title>    
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/OPTFS.styles.css" asp-append-version="true" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <style>
+        .defaultText {
+            color: #004aa9; /*#86e7cd;*/
+        }
+
+        .defaultBtn {
+            background-color: #004aa9; /*#DBDAE6;*/ /*#004aa9;/*#5569da;*/
+            color: white;
+            /*border-radius: 20px;*/
+            /*margin: 0px -20px 0px -20px;*/
+        }
+
+        .secondBtn {
+            background-color: #004aa9; /*#86e7cd;*/
+            color: white;
+            margin: 0px 10px 0px 10px;
+        }
+
+        .boldItalicText {
+            color: #004aa9; /*#5569da;*/
+            font-style: italic;
+        }
+
+        .boldText {
+            color: #004aa9; /*#5569da;*/
+        }
+
+        .selectIcon {
+            height: 58px;
+            position: absolute;
+            float: right;
+            right: 0px;
+            z-index: 1;
+            background-color: #004aa9; /*#86e7cd;*/
+            border-radius: 5px;
+        }
+
+        .formBorder {
+            border: 1px solid black;
+            padding: 5px;
+            border-radius: 5px;
+            box-shadow: 5px 5px 5px black;
+        }
+
+        .defaultLabel {
+            color: #529087;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+        a:active {
+            text-decoration: none;
+        }
+
+        label {
+            margin-bottom: 8px;
+            margin-left: 10px;
+            font-size: 18px;
+        }
+
+        .form-control::placeholder {
+            /* Chrome, Firefox, Opera, Safari 10.1+ */
+            color: lightgray;
+            opacity: 0.7;
+            /* Firefox */
+        }
+
+        .form-control:-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: lightgray;
+            opacity: 0.7;
+        }
+
+        .form-control::-ms-input-placeholder {
+            /* Microsoft Edge */
+            color: lightgray;
+            opacity: 0.7;
+        }
+
+        .logoSM {
+            width: 42px;
+            height: 42px;
+        }
+
+        .logoMD {
+            width: 84px;
+            height: 84px;
+        }
+
+        .myHover:hover {
+            background-color: lightgray;
+            opacity: 0.5;
+        }
+
+        .dropdown-toggle::after {
+            display: none;
+        }
+
+        .homePageUL li {
+            /*background-color: #5569da !important;*/
+            height: 100px !important;
+            line-height: 30px;
+            /*align-items: last baseline !important;*/
+            padding: 0px 10px 0px 10px;
+        }
+
+            .homePageUL li.selectedPage {
+                background-color: #004aa9 /*#5569da*/ !important;
+                border-radius: 0px 0px 30px 30px;
+            }
+
+                .homePageUL li.selectedPage a {
+                    color: white !important;
+                }
+
+        .underLinedPrice {
+            text-decoration-line: line-through !important;
+            text-decoration-color: red;
+            text-decoration-thickness: 3px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .trimeEct {
+            /*width: 100%;*/
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .pageHeader{
+            text-align:center;
+        }
+
+        .ListInput {
+            position: sticky;
+            top: 0;
+        }
+
+        .ListTable {
+            overflow-y: auto;
+        }
+
+            .ListTable thead th {
+                position: sticky;
+                top: 7%;
+                border: 1px solid black;
+            }
+
+            .ListTable tbody td {
+                border: 1px solid black;
+            }
+
+        .datagridheader {
+            color: white;
+            background-color: blue;
+        }
+    </style>
+
+    <!-- Search Style-->
+    <style>
+        .height {
+            height: 100vh;
+        }
+
+
+        .search {
+            position: relative;
+            box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+        }
+
+            .search input {
+                height: 60px;
+                text-indent: 25px;
+                border: 2px solid #d6d4d4;
+            }
+
+
+                .search input:focus {
+                    box-shadow: none;
+                    border: 2px solid blue;
+                }
+
+            .search .fa-search {
+                position: absolute;
+                top: 20px;
+                left: 16px;
+            }
+
+            .search button {
+                position: absolute;
+                top: 5px;
+                right: 5px;
+                height: 50px;
+                width: 110px;
+                background: blue;
+            }
+    </style>
+
+    <!-- Badge Style-->
+    <style>
+        .box {
+            position: relative;
+            max-width: 600px;
+            width: 90%;
+            height: 370px;
+            background: #fff;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+        }
+
+        /* la base */
+        .courseBadge {
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            position: absolute;
+        }
+
+            .courseBadge::before,
+            .courseBadge::after {
+                position: absolute;
+                z-index: -1;
+                content: "";
+                display: block;
+                border: 5px solid #2980b9;
+            }
+
+            .courseBadge span {
+                position: absolute;
+                display: block;
+                width: 225px;
+                padding: 15px 0;
+                /*background-color: #3498db;*/
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+                color: #fff;
+                font: 700 18px/1 "Lato", sans-serif;
+                text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+        /* in alto a destra */
+        .courseBadge-top-right {
+            top: -10px;
+            right: -10px;
+        }
+
+            .courseBadge-top-right::before,
+            .courseBadge-top-right::after {
+                border-top-color: transparent;
+                border-right-color: transparent;
+            }
+
+            .courseBadge-top-right::before {
+                top: 0;
+                left: 0;
+            }
+
+            .courseBadge-top-right::after {
+                bottom: 0;
+                right: 0;
+            }
+
+            .courseBadge-top-right span {
+                left: -25px;
+                top: 30px;
+                transform: rotate(45deg);
+            }
+    </style>
+
+    <!-- Price Badge Style -->
+    <style>
+        .priceDiv {
+            position: absolute;
+            top: 15%;
+            left: 75%;
+            opacity: 70%;
+            /*display:none;
+        margin-top: 50px;
+        border: 2px solid black;*/
+        }
+
+        .pin {
+            position: absolute;
+            top: -24px;
+            left: 95px;
+        }
+
+
+        .priceBadge {
+            transform-origin: 104px 40px;
+            animation: swing 10s ease 0s infinite normal none;
+        }
+
+        @@keyframes swing {
+            0% {
+            }
+
+            2% {
+                transform: rotate(6deg);
+            }
+
+            4% {
+                transform: rotate(-6deg);
+            }
+
+            6% {
+                transform: rotate(3.6deg);
+            }
+
+            8% {
+                transform: rotate(-2.4deg);
+            }
+
+            10% {
+                transform: rotate(1.2deg);
+            }
+
+            100% {
+            }
+        }
+    </style>
+
+    <!-- Rating 2 Style -->
+    <style>
+        .ratings i {
+            color: #cecece;
+            font-size: 32px;
+        }
+
+        .rating-color {
+            color: #fbc634 !important;
+        }
+
+        .rating-dark {
+            color: black !important;
+        }
+
+        .review-count {
+            /*font-weight: 400;*/
+            margin-bottom: 2px;
+            /*font-size: 24px !important;*/
+        }
+
+        .small-ratings i {
+            color: #cecece;
+            /*font-size: 5px;*/
+        }
+
+        .large-ratings > i, .large-ratings > span {
+            font-size: 32px;
+        }
+
+        .review-stat {
+            font-weight: 300;
+            /*font-size: 18px;*/
+            margin-bottom: 2px;
+        }
+    </style>
+
+    <!-- Dot Style -->
+    <style>
+        .dot {
+            border-radius: 50%;
+            height: 12px;
+            width: 12px;
+            background: linear-gradient(90deg, #76b3fe, #8680e4);
+            margin: 3px 0;
+        }
+
+        .selected-dot {
+            height: 20px;
+            width: 20px;
+            background: #97cdfe;
+        }
+
+        .dot-container {
+            width: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+
+    <!-- Chat1 Style -->
+    <style>
+        #chat1 .form-outline .form-control ~ .form-notch div {
+            pointer-events: none;
+            border: 1px solid;
+            border-color: #eee;
+            box-sizing: border-box;
+            background: transparent;
+        }
+
+        #chat1 .form-outline .form-control ~ .form-notch .form-notch-leading {
+            left: 0;
+            top: 0;
+            height: 100%;
+            border-right: none;
+            border-radius: .65rem 0 0 .65rem;
+        }
+
+        #chat1 .form-outline .form-control ~ .form-notch .form-notch-middle {
+            flex: 0 0 auto;
+            max-width: calc(100% - 1rem);
+            height: 100%;
+            border-right: none;
+            border-left: none;
+        }
+
+        #chat1 .form-outline .form-control ~ .form-notch .form-notch-trailing {
+            flex-grow: 1;
+            height: 100%;
+            border-left: none;
+            border-radius: 0 .65rem .65rem 0;
+        }
+
+        #chat1 .form-outline .form-control:focus ~ .form-notch .form-notch-leading {
+            border-top: 0.125rem solid #39c0ed;
+            border-bottom: 0.125rem solid #39c0ed;
+            border-left: 0.125rem solid #39c0ed;
+        }
+
+        #chat1 .form-outline .form-control:focus ~ .form-notch .form-notch-leading,
+        #chat1 .form-outline .form-control.active ~ .form-notch .form-notch-leading {
+            border-right: none;
+            transition: all 0.2s linear;
+        }
+
+        #chat1 .form-outline .form-control:focus ~ .form-notch .form-notch-middle {
+            border-bottom: 0.125rem solid;
+            border-color: #39c0ed;
+        }
+
+        #chat1 .form-outline .form-control:focus ~ .form-notch .form-notch-middle,
+        #chat1 .form-outline .form-control.active ~ .form-notch .form-notch-middle {
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            transition: all 0.2s linear;
+        }
+
+        #chat1 .form-outline .form-control:focus ~ .form-notch .form-notch-trailing {
+            border-top: 0.125rem solid #39c0ed;
+            border-bottom: 0.125rem solid #39c0ed;
+            border-right: 0.125rem solid #39c0ed;
+        }
+
+        #chat1 .form-outline .form-control:focus ~ .form-notch .form-notch-trailing,
+        #chat1 .form-outline .form-control.active ~ .form-notch .form-notch-trailing {
+            border-left: none;
+            transition: all 0.2s linear;
+        }
+
+        #chat1 .form-outline .form-control:focus ~ .form-label {
+            color: #39c0ed;
+        }
+
+        #chat1 .form-outline .form-control ~ .form-label {
+            color: #bfbfbf;
+        }
+    </style>
+
+    <!-- Chat2 Style -->
+    <style>
+        #chat2 .form-control {
+            border-color: transparent;
+        }
+
+            #chat2 .form-control:focus {
+                border-color: transparent;
+                box-shadow: inset 0px 0px 0px 1px transparent;
+            }
+
+        .divider:after,
+        .divider:before {
+            content: "";
+            flex: 1;
+            height: 1px;
+            background: #eee;
+        }
+    </style>
+
+    <!-- Profile Style -->
+    <style>
+        .profileCard {
+            width: 350px;
+            border: none;
+            box-shadow: 5px 6px 6px 2px #e9ecef;
+            border-radius: 12px;
+        }
+
+        .circleImage img {
+            border: 6px solid #fff;
+            border-radius: 100%;
+            padding: 0px;
+            top: -28px;
+            position: relative;
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            z-index: 1;
+            background: #e7d184;
+            cursor: pointer;
+        }
+
+        .profileDot {
+            height: 18px;
+            width: 18px;
+            background-color: blue;
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            border: 3px solid #fff;
+            top: -48px;
+            left: 186px;
+            z-index: 1000;
+        }
+
+        .profileName {
+            margin-top: -21px;
+            font-size: 18px;
+            font-weight: 500 !important;
+        }
+
+        .profileStart {
+            color: green;
+        }
+
+        .profileStop {
+            color: red;
+        }
+
+        .profileRate {
+            border-bottom-right-radius: 12px;
+            border-bottom-left-radius: 12px;
+        }
+
+        .profileRating {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center
+        }
+
+            .profileRating > input {
+                display: none
+            }
+
+            .profileRating > label {
+                position: relative;
+                width: 1em;
+                font-size: 30px;
+                font-weight: 300;
+                color: #FFD600;
+                cursor: pointer
+            }
+
+                .profileRating > label::before {
+                    content: "\2605";
+                    position: absolute;
+                    opacity: 0
+                }
+
+                .profileRating > label:hover:before,
+                .profileRating > label:hover ~ label:before {
+                    opacity: 1 !important
+                }
+
+            .profileRating > input:checked ~ label:before {
+                opacity: 1
+            }
+
+            .profileRating:hover > input:checked ~ label:before {
+                opacity: 0.4
+            }
+
+        .profileButtons {
+            top: 36px;
+            position: relative;
+        }
+
+        .profileRatingSubmit {
+            border-radius: 15px;
+            color: #fff;
+            height: 49px;
+        }
+
+            .profileRatingSubmit:hover {
+                color: #fff;
+            }
+    </style>
+
+    <!-- Last Chat Style -->
+    <style>
+        .chat-online {
+            color: #34ce57
+        }
+
+        .chat-offline {
+            color: #e4606d
+        }
+
+        .chat-messages {
+            display: flex;
+            flex-direction: column;
+            max-height: 800px;
+            overflow-y: scroll
+        }
+
+        .chat-message-left,
+        .chat-message-right {
+            display: flex;
+            flex-shrink: 0
+        }
+
+        .chat-message-left {
+            margin-right: auto
+        }
+
+        .chat-message-right {
+            flex-direction: row-reverse;
+            margin-left: auto
+        }
+
+        .py-3 {
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important;
+        }
+
+        .px-4 {
+            padding-right: 1.5rem !important;
+            padding-left: 1.5rem !important;
+        }
+
+        .flex-grow-0 {
+            flex-grow: 0 !important;
+        }
+
+        .border-top {
+            border-top: 1px solid #dee2e6 !important;
+        }
+    </style>
+</head>
+<body style="background-color: #b9ccdb">
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style="zoom:70%">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-1">
+                        <a class="navbar-brand " asp-area="" asp-controller="Home" asp-action="Index">
+                            <img class="img-responsive" src="~/imgs/Logo.png" style="height:100px;width:100px;" />
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+
+                    <div class="col-md-11">
+                        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between text-center">
+                            <div>
+                                <ul class="navbar-nav flex-grow-1 fw-bold homePageUL">
+                                    <li class="nav-item" style="">
+                                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Index" style="color:transparent">Register</a>
+                                    </li>
+                                    <li class="nav-item selectedPage" id="homeNavItem">
+                                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index"><br />Home</a>
+                                    </li>
+
+                                    @if (SignInManager.IsSignedIn(User))
+                                    {
+                                        var myUser = await UserManager.GetUserAsync(User);
+                                        if (User.IsInRole("Admin"))
+                                        {
+                                            <li class="nav-item" id="countryNavItem">
+                                                <a class="nav-link" asp-area="" asp-controller="Countries" asp-action="Index"><br />Countries</a>
+                                            </li>
+
+                                            <li class="nav-item" id="cityNavItem">
+                                                <a class="nav-link " asp-area="" asp-controller="Cities" asp-action="Index"><br />Cities</a>
+                                            </li>
+
+                                            <li class="nav-item" id="specialtyNavItem">
+                                                <a class="nav-link " asp-area="" asp-controller="Specialties" asp-action="Index"><br />Specialties</a>
+                                            </li>
+
+                                            <li class="nav-item" id="subjectNavItem">
+                                                <a class="nav-link " asp-area="" asp-controller="Subjects" asp-action="Index"><br />Subjects</a>
+                                            </li>
+
+                                            <li class="nav-item" id="tutorRequestsNavItem">
+                                                <a class="nav-link " asp-area="" asp-controller="Admin" asp-action="TutorRequests"><br />Tutor Requests</a>
+                                            </li>
+
+                                            <li class="nav-item" id="courseNavItem">
+                                                <a class="nav-link " asp-area="" asp-controller="Admin" asp-action="ManageCourses"><br />Courses</a>
+                                            </li>
+                                        }
+                                        else if (User.IsInRole("Tutor"))
+                                        {
+                                            if (myUser.IsTutorConfirmed == true)
+                                            {
+                                                <li class="nav-item" id="courseNavItem">
+                                                    <a class="nav-link " asp-area="" asp-controller="Courses" asp-action="Index"><br />Courses</a>
+                                                </li>
+                                            }
+
+                                            <li class="nav-item" id="studentRequestNavItem">
+                                                <a class="nav-link " asp-area="" asp-controller="studentRequests" asp-action="Index"><br />Student Requests</a>
+                                            </li>
+
+                                            <li class="nav-item" id="qualificationNavItem">
+                                                <a class="nav-link " href="~/Profile/TutorProfile">
+                                                    <br />
+                                                    My Profile
+                                                </a>
+                                            </li>
+                                        }
+                                        else if (User.IsInRole("Student"))
+                                        {
+                                            <li class="nav-item" id="searchInTutorNavItem">
+                                                <a class="nav-link " asp-area="" asp-controller="Student" asp-action="SearchInTutor"><br />Search In Tutor</a>
+                                            </li>
+
+                                            <li class="nav-item" id="searchInTutorNavItem">
+                                                <form class="form-inline" asp-controller="home" asp-action="CourseSearch" method="get">
+                                                    <div class="search" style="width:400px!important;margin-top:20px;">
+                                                        <i class="fa fa-search"></i>
+                                                        @if (ViewBag.q != null)
+                                                        {
+                                                            <input type="text" name="q" class="form-control" placeholder="Search Here" required value="@ViewBag.q">
+                                                        }
+                                                        else
+                                                        {
+                                                            <input type="text" name="q" class="form-control" placeholder="Search Here" required>
+                                                        }
+                                                        <button type="submit" class="btn btn-primary">Search</button>
+                                                    </div>
+                                                </form>
+                                            </li>
+                                        }
+
+                                        string notifyCount = "0";
+
+                                        var notificationsCount = myUser.GetNewNotificationsCount();
+
+                                        if (notificationsCount != null)
+                                        {
+                                            if (notificationsCount < 100)
+                                                notifyCount = notificationsCount.ToString();
+                                            else notifyCount = "99+";
+                                        }
+                                        else notificationsCount = 0;
+
+                                        <li class="nav-item" id="notificationNavItem">
+                                            <a class="nav-link " asp-area="" asp-controller="Notifications" asp-action="Index">
+                                                <br />
+                                                Notifications
+                                                @if (notificationsCount > 0)
+                                                {
+                                                    <span class="badge bg-danger">@notifyCount</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge bg-primary">@notifyCount</span>
+                                                }
+                                            </a>
+                                        </li>
+
+                                        @if (User.IsInRole("Tutor") || User.IsInRole("Student"))
+                                        {
+                                            var msgCount = "0";
+                                            var messageCount = myUser.GetNewMessagesCount();
+
+                                            if (messageCount != null)
+                                            {
+                                                if (messageCount < 100)
+                                                    msgCount = messageCount.ToString();
+                                                else msgCount = "99+";
+                                            }
+                                            else messageCount = 0;
+                                            <li class="nav-item" id="inboxNavItem">
+                                                <a class="nav-link " asp-area="" asp-controller="Chats" asp-action="Index">
+                                                    <br />
+                                                    <i class="fa fa-envelope" aria-hidden="true">
+                                                        @if (messageCount > 0)
+                                                        {
+                                                            <span id="messageCount" class="badge bg-danger">@msgCount</span>
+                                                        }
+                                                        else
+                                                        {
+                                                            <span id="messageCount" class="badge bg-primary">@msgCount</span>
+                                                        }
+                                                        @*Inbox*@
+                                                    </i>
+                                                </a>
+                                            </li>
+                                        }
+                                    }
+                                </ul>
+                            </div>
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <div>
+                                    <ul class="navbar-nav flex-grow-1 fw-bold homePageUL">
+                                    <li class="nav-item" id="aboutUSNavItem">
+                                        <a class="nav-link " asp-area="" asp-controller="home" asp-action="AboutUS"><br />About US</a>
+                                    </li>
+
+                                    <li class="nav-item" id="contactUSNavItem">
+                                        <a class="nav-link " asp-area="" asp-controller="home" asp-action="ContactUS"><br />Contact US</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            }
+                            <partial name="_LoginPartial" />
+                            <div style="position:absolute;right:150px;">
+                                
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            <!-- Modal -->
+            <div class="modal fade" id="paymentModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="paymentDiv">
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - OPTFS - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.13/signalr.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Moyasar Libs -->
+    <!-- Moyasar Styles -->
+    <link rel="stylesheet" href="https://cdn.moyasar.com/mpf/1.13.0/moyasar.css" />
+
+    <!-- Moyasar Scripts -->
+    <script src="https://cdn.moyasar.com/mpf/1.13.0/moyasar.js"></script>
+    <!-- Download CSS and JS files in case you want to test it locally, but use CDN in production -->
+    <!-- End Moyasar Libs -->
+    <!-- Rating Libs -->
+    <!-- default styles -->
+    @*<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">*@
+    <link href="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-star-rating@4.1.2/css/star-rating.min.css" media="all" rel="stylesheet" type="text/css" />
+
+    <!-- with v4.1.0 Krajee SVG theme is used as default (and must be loaded as below) - include any of the other theme CSS files as mentioned below (and change the theme property of the plugin) -->
+    <link href="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-star-rating@4.1.2/themes/krajee-svg/theme.css" media="all" rel="stylesheet" type="text/css" />
+
+    <!-- important mandatory libraries -->
+    @*<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>*@
+    <script src="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-star-rating@4.1.2/js/star-rating.min.js" type="text/javascript"></script>
+
+    <!-- with v4.1.0 Krajee SVG theme is used as default (and must be loaded as below) - include any of the other theme JS files as mentioned below (and change the theme property of the plugin) -->
+    <script src="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-star-rating@4.1.2/themes/krajee-svg/theme.js"></script>
+
+    <!-- optionally if you need translation for your language then include locale file as mentioned below (replace LANG.js with your own locale file) -->
+    <script src="https://cdn.jsdelivr.net/gh/kartik-v/bootstrap-star-rating@4.1.2/js/locales/LANG.js"></script>
+    <!-- End Rating Libs -->
+    <script>
+        $(document).ready(function () {
+            //$("input").addClass("border border-primary");
+            $("input[type=text]").css("border", "2px solid #86e7cd");
+            $("input[type=password]").css("border", "2px solid #86e7cd");
+            $("input[type=number]").css("border", "2px solid #86e7cd");
+            $("input[type=email]").css("border", "2px solid #86e7cd");
+            $("input[type=tel]").css("border", "2px solid #86e7cd");
+            //if (@ViewBag.SelectedPage!= null) {
+            if (@ViewBag.SelectedPage!= null) {
+                $(".selectedPage").removeClass("selectedPage");
+                $("#@ViewBag.SelectedPage").addClass("selectedPage");
+            }
+
+            setRating();
+            startSignalR();       
+
+            $(".ListInput").on("keyup", function () {
+                var value = $(this).val().toLowerCase();
+                $(".ListTable .tr").filter(function () {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+        });
+
+        function setRating() {
+            // initialize with defaults
+            $(".rating").rating();
+
+            // with plugin options (do not attach the CSS class "rating" to your input if using this approach)
+            $(".rating").rating({ 'size': 'xs' });
+        }
+
+        function SavePayment(payment) {
+            //var json = JSON.stringify(payment);
+            $.post('../Payment/SaveCoursePayment', payment, function (response) {
+                //console.log("response:");
+                //console.log(response);
+                return true;
+            });
+            return true;
+        }
+
+        // Mada, Visa, Mastercard, and American Express
+        function createCoursePaymentForm(selector, courseId, requestId, total, desc, redirectUrl,completeUrl) {
+            var currencyCode = 'SAR';
+            var fractions = 100;
+            var hostUrl = "https://@Context.Request.Host.Value/";
+            //console.log("hostUrl:"+hostUrl);
+            $(selector).innerHTML = null;
+            Moyasar.init({
+                element: selector,
+                // Amount in the smallest currency unit.
+                // For example:
+                // 10 SAR = 10 * 100 Halalas
+                // 10 KWD = 10 * 1000 Fils
+                // 10 JPY = 10 JPY (Japanese Yen does not have fractions)
+                amount:total*fractions ,//1000,
+                currency: currencyCode,//'SAR',
+                description:desc,// 'Coffee Order #1',
+                publishable_api_key: 'pk_test_TEKY9D8BTe8VhH4w3s1tin4Kw2AFfPVTAs6n8Q2z',//'pk_test_AQpxBV31a29qhkhUYFYUFjhwllaDVrxSq5ydVNui',
+                callback_url: hostUrl+redirectUrl,
+                //callback_url: 'https://moyasar.com/thanks',
+                //callback_url: 'https://www.my-store.com/payments_redirect?id=79cced57-9deb-4c4b-8f48-59c124f79688&status=paid&message=Succeeded',
+                methods: ['creditcard'],
+                //on_completed: hostUrl + completeUrl,
+                on_completed: function (payment) {
+                    return new Promise(function (resolve, reject) {
+                        /*console.log("payment:");
+                        console.log(payment);
+                        navigator.clipboard.writeText(JSON.stringify(payment));*/
+                        // savePayment is just an example, your usage may vary.
+                        payment.courseId = courseId;
+                        payment.requestId = requestId;
+                        if (SavePayment(payment)) {
+                            resolve({});
+                        } else {
+                            reject();
+                        }
+                    });
+                },
+            });
+            $("#paymentModal").modal('show');
+        }
+
+        var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+        function startSignalR() {
+            //
+            var IsAuthenticated = '@User?.Identity?.IsAuthenticated.ToString().ToLower()';
+            if (@User?.Identity?.IsAuthenticated.ToString().ToLower() == true) {
+                //var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+
+                connection.on("UpdateMessageBadge", function (fromUser, messageId) {
+                    console.log("UpdateMessageBadge");
+                    $.get('/chats/GetNewMessagesCount', function (response) {
+                        if (response != null && response > 0) {
+                            $("#messageCount").text(response);
+                            $("#messageCount").removeClass("bg-primary");
+                            $("#messageCount").addClass("bg-danger");
+                        }
+                    });
+                });
+                
+                connection.start().then(function () {
+                    console.log("Connected!");
+                }).catch(function (err) {
+                    console.error(err.toString());
+                });
+            }
+        }
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

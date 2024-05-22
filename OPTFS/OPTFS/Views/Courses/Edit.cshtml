@@ -1,0 +1,180 @@
+﻿@model OPTFS.Models.Course
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="offset-md-1 col-md-10">
+    <div style="text-align: center">
+        <h1 class="boldItalicText">Edit Course</h1>
+    </div>
+    <hr />
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+        <div class="row">
+            <input type="hidden" asp-for="Id" />
+            <div class="col-md-6">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Price" class="control-label"></label>
+                    <input asp-for="Price" class="form-control" />
+                    <span asp-validation-for="Price" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Discount" class="control-label"></label>
+                    <input asp-for="Discount" class="form-control" />
+                    <span asp-validation-for="Discount" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="Description" class="control-label"></label>
+                    <input asp-for="Description" class="form-control" />
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="SubjectId" class="control-label"></label>
+                    <select asp-for="SubjectId" class="form-control" asp-items="ViewBag.SubjectId"></select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="FromDate" class="control-label"></label>
+                    <input asp-for="FromDate" class="form-control" />
+                    <span asp-validation-for="FromDate" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="ToDate" class="control-label"></label>
+                    <input asp-for="ToDate" class="form-control" />
+                    <span asp-validation-for="ToDate" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="form-group">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Sat" checked /> @Html.DisplayNameFor(model => model.Sat)
+                    </label>
+
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Sun" checked /> @Html.DisplayNameFor(model => model.Sun)
+                    </label>
+
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Mon" checked /> @Html.DisplayNameFor(model => model.Mon)
+                    </label>
+
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Tue" checked /> @Html.DisplayNameFor(model => model.Tue)
+                    </label>
+
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Wen" checked /> @Html.DisplayNameFor(model => model.Wen)
+                    </label>
+
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Thi" checked /> @Html.DisplayNameFor(model => model.Thi)
+                    </label>
+
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Fri" disabled /> @Html.DisplayNameFor(model => model.Fri)
+                    </label>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="FromTime" class="control-label"></label>
+                    <input asp-for="FromTime" class="form-control" />
+                    <span asp-validation-for="FromTime" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label asp-for="ToTime" class="control-label"></label>
+                    <input asp-for="ToTime" class="form-control" />
+                    <span asp-validation-for="ToTime" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="logoFile" class="form-label">Logo File</label>
+                    <input class="form-control" type="file" id="logoFile"
+                           onchange="checkFileUploadExt(this);" accept=".png,.jpg,.jpeg,.gif,.jfif" name="logoFile" />
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input" asp-for="Active" checked /> @Html.DisplayNameFor(model => model.Active)
+                    </label>
+                </div>
+            </div>
+        </div>
+        <br />
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-lg defaultBtn" />
+                    <a asp-action="Index" class="btn btn-lg btn-danger">Back to List</a>
+                </div> 
+            </div>
+        </div>
+    </form>    
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        function checkFileUploadExt(fieldObj) {
+            var control = document.getElementById("logoFile");
+            //var filelength = control.files.length;
+            var allowedTypes = ['image/jpg', 'image/png', 'image/jpeg', 'image/gif', 'image/jfif'];
+
+            for (var i = 0; i < control.files.length; i++) {
+                var file = control.files[i];
+                console.log(file.type);
+                if (!allowedTypes.includes(file.type)) {
+                    alert('Invalid file type. Please upload a Images only');
+                    document.getElementById('logoFile').value = '';
+                    break;
+                }
+                else {
+                    const fSize = file.size;
+                    const fSizeInKB = Math.round((fSize / 1024));
+                    // The size of the file.
+                    if (fSizeInKB >= 32768) {
+                        alert("File too Big, please select a file less than 4mb");
+                        break;
+                    } /*else if (fSizeInKB < 2048) {
+                                alert("File too small, please select a file greater than 2mb");
+                                break;
+                            }*/
+                }
+            }
+        }
+    </script>
+}

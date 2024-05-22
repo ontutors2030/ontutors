@@ -1,0 +1,56 @@
+﻿
+@model SearchModel
+
+@{
+    ViewData["Title"] = "Search In Tutors";
+}
+<div class="row">
+    <div class="col-md-12">
+        <br /><br /><br />
+        <div class="row">
+            <div class="offset-md-4 col-md-4">
+                <div style="text-align: center">
+                    <h1 class="boldItalicText">@ViewData["Title"]</h1>
+                </div>
+                <form asp-action="SearchTutor" method="post">
+                    <hr />
+                    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="SearchText" class="form-control"/>
+                        <label asp-for="SearchText">SearchText</label>                        
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <select asp-for="SpecialtyId" class="form-control" asp-items="ViewBag.SpecialtyId">
+                            <option value="-1">-- Select Specialty --</option>
+                        </select>
+                        <label asp-for="SpecialtyId" class="control-label"></label>
+                    </div>
+
+                    @*<div class="form-floating mb-3">
+                        <select asp-for="CountryId" class="form-control" asp-items="ViewBag.CountryId">
+                            <option value="-1">-- Select Country --</option>
+                        </select>
+                        <label asp-for="CountryId" class="control-label"></label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <select asp-for="CityId" class="form-control" asp-items="ViewBag.CityId">
+                            <option value="-1">-- Select City --</option>
+                        </select>
+                        <label asp-for="CityId" class="control-label"></label>
+                    </div>*@
+
+                    <div class="row">                        
+                        <div class="offset-md-3 col-md-6">
+                            <button type="submit" class="w-100 btn btn-lg defaultBtn">Search</button>
+                        </div>
+                    </div>
+                </form>
+            </div>           
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

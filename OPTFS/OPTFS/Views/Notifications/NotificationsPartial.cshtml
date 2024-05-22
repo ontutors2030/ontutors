@@ -1,0 +1,45 @@
+﻿@model IEnumerable<OPTFS.Models.Notification>
+
+<table class="ListTable table table-bordered table-hover table-sm">
+    <thead class="datagridheader">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Link)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreatedDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="tr">
+                <td>
+                    @Html.Raw(item.Content)
+                </td>
+                <td>
+                    @if (!string.IsNullOrWhiteSpace(item.Link))
+                    {
+                        <a href="@item.Link" class="btn btn-primary">View Profile</a>
+                    }
+                    else
+                    {
+                        @Html.DisplayFor(modelItem => item.Link)
+                        //"~/Profile/ViewProfile/" + stuentUser.Id
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CreatedDate)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

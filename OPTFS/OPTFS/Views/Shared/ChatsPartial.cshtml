@@ -1,0 +1,42 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@model List<Chat>
+@{
+    var myUser = await UserManager.GetUserAsync(User);
+    var lastChats = Model;
+}
+
+@if (lastChats != null && lastChats.Count > 0)
+{
+    foreach (var item in lastChats)
+    {
+        ApplicationUser? chatSecondUser = null;
+        if (item.User1 != null && item.User1.Id == myUser.Id)
+        {
+            chatSecondUser = item.User2;
+        }
+        else if (item.User2 != null && item.User2.Id == myUser.Id)
+        {
+            chatSecondUser = item.User1;
+        }
+        var newMessages = item.Messages?.Where(m => m.StatusId == (int)MessageStatus.New && m.SenderId == chatSecondUser?.Id)?.Count();
+
+        <a href="~/Chats/Index/@item.Id" class="list-group-item list-group-item-action border-0">
+            @if (newMessages > 0)
+            {
+                <div class="badge bg-danger float-right" style="position:absolute;float:right!important;right:20px;top:20px;">@newMessages</div>
+            }
+            <div class="d-flex align-items-start">
+                <img src="~/@chatSecondUser?.PersonalImageUrl" class="rounded-circle mr-1" alt="Vanessa Tucker" width="40" height="40"
+                     style="margin:5px;">
+                <div class="flex-grow-1 ml-3 text-truncate" style="margin-top:10px;">
+                    @chatSecondUser?.FullName
+                    @*<div class="small"><span class="fa fa-circle chat-online"></span> Online</div>*@
+                    @*<div class="small"><span class="fa fa-circle chat-offline"></span> Offline</div>*@
+                </div>
+            </div>
+        </a>
+        <hr />
+    }
+}

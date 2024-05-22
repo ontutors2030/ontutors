@@ -1,0 +1,43 @@
+﻿@model IEnumerable<OPTFS.Models.CourseDetail>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<table id="ListTable" class="table table-bordered table-hover table-sm">
+    <thead class="datagridheader">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LevelIndex)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int i = 1;
+            foreach (var item in Model)
+            {
+                <tr class="tr">
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Course.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.LevelIndex)
+                    </td>                    
+                    @{i = i + 1;}
+                </tr>
+            }}
+    </tbody>
+</table>
+
+@*<a asp-controller="Profile" asp-action="ViewTutorProfile" asp-route-id="@ViewBag.TutorId" class="btn btn-lg btn-primary">Back to profile</a>*@

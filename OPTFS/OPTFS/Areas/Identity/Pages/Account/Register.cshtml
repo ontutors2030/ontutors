@@ -1,0 +1,181 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="offset-md-2 col-md-8">
+                <div style="text-align: center">
+                    <h1 class="boldItalicText">@ViewData["Title"]</h1>
+                </div>
+                <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" 
+                      method="post" enctype="multipart/form-data" autocomplete="off">
+                    <hr />
+                    <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                    <div class="row">
+                        <div class="form-floating mb-3 col-md-6">
+                            <input asp-for="Input.FullName" class="form-control" aria-required="true" placeholder="Full Name"
+                                   role="presentation" autocomplete="off" />
+                            <label asp-for="Input.FullName">Full Name</label>
+                            <span asp-validation-for="Input.FullName" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-floating mb-3 col-md-6">
+                            <input asp-for="Input.Email" class="form-control" aria-required="true" placeholder="name@example.com"
+                                   role="presentation" autocomplete="off" />
+                            <label asp-for="Input.Email">Email</label>
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-floating mb-3 col-md-6">
+                            <input asp-for="Input.Password" class="form-control" aria-required="true" placeholder="password" 
+                                   role="presentation" autocomplete="off"/>
+                            <label asp-for="Input.Password">Password</label>
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3 col-md-6">
+                            <input asp-for="Input.ConfirmPassword" class="form-control" aria-required="true" placeholder="password" 
+                                   role="presentation" autocomplete="off"/>
+                            <label asp-for="Input.ConfirmPassword">Confirm Password</label>
+                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="form-floating mb-3 col-md-6">
+                            <select id="CountryId" asp-for="Input.CountryId" class="form-control" asp-items="ViewBag.CountryId"
+                            onchange="countryChanged(this.value)"></select>
+                            <label asp-for="Input.CountryId" class="control-label"></label>
+                        </div>
+
+                        <div class="form-floating mb-3 col-md-6">
+                            @* asp-items="ViewBag.CityId" *@
+                            <select id="CityId" asp-for="Input.CityId" class="form-control"></select>
+                            <label asp-for="Input.CityId" class="control-label"></label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-floating mb-3 col-md-6">
+                            <select asp-for="Input.SpecialtyId" class="form-control" asp-items="ViewBag.SpecialtyId"></select>
+                            <label asp-for="Input.SpecialtyId" class="control-label"></label>
+                        </div>
+
+                        <div class="mb-3 col-md-6">
+                            <div class="row" style="background-color: #fbf7fa; border-radius: 5px; margin-left: 0px; margin-right: 0px;; padding-top: 10px">
+                                <div class="col-md-12">
+                                    <div class="checkbox">
+                                        <label for="UserTypeId"><input type="radio" id="Tutor" name="UserTypeId" asp-for="Input.UserTypeId" class="form-check-input" value="Tutor" /> Tutor</label>
+
+                                        <label for="UserTypeId"><input type="radio" id="Student" name="UserTypeId" asp-for="Input.UserTypeId" class="form-check-input" checked="checked" value="Student" /> Student</label>
+                                    </div>
+                                </div>
+                                <br/><br/>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 offset-md-3 col-md-6">
+                            <label for="avatarFile" class="form-label">Avatar</label>
+                            <input class="form-control" type="file" id="avatarFile"
+                                   onchange="checkFileUploadExt(this);" accept=".png,.jpg,.jpeg,.gif,.jfif" name="avatarFile"
+                                   role="presentation" autocomplete="off" />
+                        </div>                                               
+                    </div>
+                    <div class="row">
+                        <div class="offset-md-3 col-md-6">
+                            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg defaultBtn">Register</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--<div class="col-md-6 col-md-offset-2">
+                <section>
+                    <hr />
+                    @{
+                        if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                        {
+                                <div>
+                                    <p>
+                                        There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
+                                            article
+                                            about setting up this ASP.NET application to support logging in via external services
+                                        </a>.
+                                    </p>
+                                </div>
+                        }
+                        else
+                        {
+                                <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                                    <div>
+                                        <p>
+                                            @foreach (var provider in Model.ExternalLogins!)
+                                        {
+                                                <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                        }
+                                        </p>
+                                    </div>
+                                </form>
+                        }
+                    }
+                </section>
+            </div>-->
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        $(document).ready(function () { 
+            countryChanged(1);
+        });
+
+        function checkFileUploadExt(fieldObj) {
+            var control = document.getElementById("avatarFile");
+            //var filelength = control.files.length;
+            var allowedTypes = ['image/jpg', 'image/png', 'image/jpeg', 'image/gif', 'image/jfif'];
+
+            for (var i = 0; i < control.files.length; i++) {
+                var file = control.files[i];
+                console.log(file.type);
+                if (!allowedTypes.includes(file.type)) {
+                    alert('Invalid file type. Please upload a Images only');
+                    document.getElementById('avatarFile').value = '';
+                    break;
+                }
+                else {
+                    const fSize = file.size;
+                    const fSizeInKB = Math.round((fSize / 1024));
+                    // The size of the file.
+                    if (fSizeInKB >= 32768) {
+                        alert("File too Big, please select a file less than 4mb");
+                        break;
+                    } /*else if (fSizeInKB < 2048) {
+                                 alert("File too small, please select a file greater than 2mb");
+                                 break;
+                             }*/
+                }
+            }
+        }
+
+        function countryChanged(selectedCountryId){
+            $.getJSON('../../Cities/GetCities?CountryId='+selectedCountryId,
+                function (response) {
+                    console.log(response)
+                    $("#CityId").html('');
+                    var s = '<option disabled>-- Select City --</option>';
+                    for (var i = 0; i < response.length; i++) {
+                        s += '<option value="' + response[i].Id + '">' + response[i].Name + '</option>';
+                    }
+
+                    $("#CityId").append(s);                    
+                });
+        }
+    </script>
+}

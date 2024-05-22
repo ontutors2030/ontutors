@@ -1,0 +1,1061 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\obj\\Release\\net8.0\\linux-x64\\scopedcss\\projectbundle\\OPTFS.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OPTFS.bundle.scp.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\css\\mystyle.css",
+      "PackagePath": "staticwebassets\\css\\mystyle.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\css\\profileCard.css",
+      "PackagePath": "staticwebassets\\css\\profileCard.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\imgs\\Circle.jfif",
+      "PackagePath": "staticwebassets\\imgs\\Circle.jfif"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\imgs\\HomeGirl.jfif",
+      "PackagePath": "staticwebassets\\imgs\\HomeGirl.jfif"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\imgs\\Logo.png",
+      "PackagePath": "staticwebassets\\imgs\\Logo.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\imgs\\aboutImgs\\1.webp",
+      "PackagePath": "staticwebassets\\imgs\\aboutImgs\\1.webp"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\imgs\\aboutImgs\\2.png",
+      "PackagePath": "staticwebassets\\imgs\\aboutImgs\\2.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\imgs\\aboutImgs\\3.webp",
+      "PackagePath": "staticwebassets\\imgs\\aboutImgs\\3.webp"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\imgs\\aboutImgs\\4.webp",
+      "PackagePath": "staticwebassets\\imgs\\aboutImgs\\4.webp"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\imgs\\aboutImgs\\5.webp",
+      "PackagePath": "staticwebassets\\imgs\\aboutImgs\\5.webp"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\imgs\\circleBackground.png",
+      "PackagePath": "staticwebassets\\imgs\\circleBackground.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\imgs\\circleBackgroundTransparent.png",
+      "PackagePath": "staticwebassets\\imgs\\circleBackgroundTransparent.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\imgs\\userPC.jfif",
+      "PackagePath": "staticwebassets\\imgs\\userPC.jfif"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\core.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\icons.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\larger.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\list.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\mixins.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\path.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\spinning.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\spinning.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\stacked.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\less\\variables.less"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_spinning.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_spinning.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\fontawesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\lib\\fontawesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638464454738595971_-1783046017.png",
+      "PackagePath": "staticwebassets\\uploads\\638464454738595971_-1783046017.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638464460198838313_-679224796.png",
+      "PackagePath": "staticwebassets\\uploads\\638464460198838313_-679224796.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638464460303153602_-1343417004.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638464460303153602_-1343417004.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638464475308167925_1144162070.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\638464475308167925_1144162070.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638464475390973374_1087261796.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638464475390973374_1087261796.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638464475391554265_1087261796.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638464475391554265_1087261796.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638464501293273414_2009254222.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638464501293273414_2009254222.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638464501384499918_-538646773.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\638464501384499918_-538646773.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638465117172681819_731188321.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638465117172681819_731188321.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638465119853199710_448152438.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638465119853199710_448152438.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638472033489785743_1799757198.jfif",
+      "PackagePath": "staticwebassets\\uploads\\638472033489785743_1799757198.jfif"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638472033489932788_-1572846729.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638472033489932788_-1572846729.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638472033489948544_1858071441.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638472033489948544_1858071441.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638476256514188078_-2076370917.jfif",
+      "PackagePath": "staticwebassets\\uploads\\638476256514188078_-2076370917.jfif"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638476256997760594_1441778735.png",
+      "PackagePath": "staticwebassets\\uploads\\638476256997760594_1441778735.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638477196689801799_-1079870149.png",
+      "PackagePath": "staticwebassets\\uploads\\638477196689801799_-1079870149.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638477304061537232_1325458502.png",
+      "PackagePath": "staticwebassets\\uploads\\638477304061537232_1325458502.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638482608512190044_183249760.png",
+      "PackagePath": "staticwebassets\\uploads\\638482608512190044_183249760.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638489167035896532_1636663488.png",
+      "PackagePath": "staticwebassets\\uploads\\638489167035896532_1636663488.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638489168166451395_509825491.png",
+      "PackagePath": "staticwebassets\\uploads\\638489168166451395_509825491.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638489169767809606_1621465819.png",
+      "PackagePath": "staticwebassets\\uploads\\638489169767809606_1621465819.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638489202888151409_306849392.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\638489202888151409_306849392.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638489206344278942_-320299131.png",
+      "PackagePath": "staticwebassets\\uploads\\638489206344278942_-320299131.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638489278675269948_-843210062.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\638489278675269948_-843210062.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638489279895361778_427549610.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\638489279895361778_427549610.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638489283850028441_-1505054968.png",
+      "PackagePath": "staticwebassets\\uploads\\638489283850028441_-1505054968.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638489286464625309_515181777.png",
+      "PackagePath": "staticwebassets\\uploads\\638489286464625309_515181777.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638489309690450733_1624792762.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638489309690450733_1624792762.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638489311519463466_1360689216.png",
+      "PackagePath": "staticwebassets\\uploads\\638489311519463466_1360689216.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638493345113165436_474456069.png",
+      "PackagePath": "staticwebassets\\uploads\\638493345113165436_474456069.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638496688942700018_-187717567.jfif",
+      "PackagePath": "staticwebassets\\uploads\\638496688942700018_-187717567.jfif"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638496694185544694_1195030360.jfif",
+      "PackagePath": "staticwebassets\\uploads\\638496694185544694_1195030360.jfif"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638497757410568498_-181046432.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638497757410568498_-181046432.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638497767057852641_469570367.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638497767057852641_469570367.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638497770369166359_427605952.png",
+      "PackagePath": "staticwebassets\\uploads\\638497770369166359_427605952.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638511681773584269_-1842761602.png",
+      "PackagePath": "staticwebassets\\uploads\\638511681773584269_-1842761602.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638511682664322794_-309026133.png",
+      "PackagePath": "staticwebassets\\uploads\\638511682664322794_-309026133.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638511683044609607_-1842761602.png",
+      "PackagePath": "staticwebassets\\uploads\\638511683044609607_-1842761602.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638515987124364154_1732563596.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638515987124364154_1732563596.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638516088513636317_-1975200615.png",
+      "PackagePath": "staticwebassets\\uploads\\638516088513636317_-1975200615.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638516099413968267_-281758535.png",
+      "PackagePath": "staticwebassets\\uploads\\638516099413968267_-281758535.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638516117049627690_1788263354.png",
+      "PackagePath": "staticwebassets\\uploads\\638516117049627690_1788263354.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638516128245518770_298759599.png",
+      "PackagePath": "staticwebassets\\uploads\\638516128245518770_298759599.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638516129065498563_298759599.png",
+      "PackagePath": "staticwebassets\\uploads\\638516129065498563_298759599.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638516132653852525_132155031.png",
+      "PackagePath": "staticwebassets\\uploads\\638516132653852525_132155031.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517637134970377_1298345413.png",
+      "PackagePath": "staticwebassets\\uploads\\638517637134970377_1298345413.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517640217523816_1298345413.png",
+      "PackagePath": "staticwebassets\\uploads\\638517640217523816_1298345413.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517661964047337_43250913.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\638517661964047337_43250913.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517662773517753_831129293.png",
+      "PackagePath": "staticwebassets\\uploads\\638517662773517753_831129293.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517663530857872_2114047554.png",
+      "PackagePath": "staticwebassets\\uploads\\638517663530857872_2114047554.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517664640220347_433352309.png",
+      "PackagePath": "staticwebassets\\uploads\\638517664640220347_433352309.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517665334144128_-124388358.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638517665334144128_-124388358.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517666139952743_-359324599.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\638517666139952743_-359324599.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517670425012507_-12121159.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\638517670425012507_-12121159.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517672475615464_1427142836.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\638517672475615464_1427142836.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517675218252827_1614045948.png",
+      "PackagePath": "staticwebassets\\uploads\\638517675218252827_1614045948.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517677603064478_-1891833571.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638517677603064478_-1891833571.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517680642164822_-1891833571.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638517680642164822_-1891833571.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517682656507094_-1218242933.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638517682656507094_-1218242933.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517684863623942_1508187429.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638517684863623942_1508187429.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517685966264092_-1187771492.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638517685966264092_-1187771492.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517700272476627_1399673187.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638517700272476627_1399673187.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517702593372127_666515638.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638517702593372127_666515638.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517705309715214_107642810.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638517705309715214_107642810.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517706747681201_-621049899.jpg",
+      "PackagePath": "staticwebassets\\uploads\\638517706747681201_-621049899.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\638517715848842561_2100984793.png",
+      "PackagePath": "staticwebassets\\uploads\\638517715848842561_2100984793.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\avatar7.png",
+      "PackagePath": "staticwebassets\\uploads\\avatar7.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\css\\profileCard.css",
+      "PackagePath": "staticwebassets\\uploads\\css\\profileCard.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\css\\site.css",
+      "PackagePath": "staticwebassets\\uploads\\css\\site.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\favicon.ico",
+      "PackagePath": "staticwebassets\\uploads\\favicon.ico"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\imgs\\Circle.jfif",
+      "PackagePath": "staticwebassets\\uploads\\imgs\\Circle.jfif"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\imgs\\HomeGirl.jfif",
+      "PackagePath": "staticwebassets\\uploads\\imgs\\HomeGirl.jfif"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\imgs\\Logo.png",
+      "PackagePath": "staticwebassets\\uploads\\imgs\\Logo.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\imgs\\circleBackground.png",
+      "PackagePath": "staticwebassets\\uploads\\imgs\\circleBackground.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\imgs\\circleBackgroundTransparent.png",
+      "PackagePath": "staticwebassets\\uploads\\imgs\\circleBackgroundTransparent.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\imgs\\userPC.jfif",
+      "PackagePath": "staticwebassets\\uploads\\imgs\\userPC.jfif"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\js\\site.js",
+      "PackagePath": "staticwebassets\\uploads\\js\\site.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\uploads\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638464454738595971_-1783046017.png",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638464454738595971_-1783046017.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638464460198838313_-679224796.png",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638464460198838313_-679224796.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638464460303153602_-1343417004.jpg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638464460303153602_-1343417004.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638464475308167925_1144162070.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638464475308167925_1144162070.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638464475390973374_1087261796.jpg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638464475390973374_1087261796.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638464475391554265_1087261796.jpg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638464475391554265_1087261796.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638464501293273414_2009254222.jpg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638464501293273414_2009254222.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638464501384499918_-538646773.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638464501384499918_-538646773.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638465117172681819_731188321.jpg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638465117172681819_731188321.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638465119853199710_448152438.jpg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638465119853199710_448152438.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638471146171455220_-1525778595.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638471146171455220_-1525778595.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638471189754388545_-1234862789.jpg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638471189754388545_-1234862789.jpg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638471195989719118_-1965902554.png",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638471195989719118_-1965902554.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638471200501670297_-1129676935.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638471200501670297_-1129676935.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638471319914043576_1751493163.png",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638471319914043576_1751493163.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638471332645377496_-1292763772.png",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638471332645377496_-1292763772.png"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\638471336906547312_-421447654.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\638471336906547312_-421447654.jpeg"
+    },
+    {
+      "Id": "F:\\Programming\\Workspace\\Najeeb Students\\ontutors2030\\FinalProject\\OPTFS\\OPTFS\\wwwroot\\uploads\\uploads\\avatar7.png",
+      "PackagePath": "staticwebassets\\uploads\\uploads\\avatar7.png"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.OPTFS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.build.OPTFS.props",
+      "PackagePath": "build\\OPTFS.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.buildMultiTargeting.OPTFS.props",
+      "PackagePath": "buildMultiTargeting\\OPTFS.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\linux-x64\\staticwebassets\\msbuild.buildTransitive.OPTFS.props",
+      "PackagePath": "buildTransitive\\OPTFS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

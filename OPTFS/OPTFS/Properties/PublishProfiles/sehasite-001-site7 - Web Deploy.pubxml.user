@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5ERx+Ifxu0inKjk1wpAn/AAAAAACAAAAAAAQZgAAAAEAACAAAACvgDWiQgH8OYIy852EYKY2TJcnNm5S6wmNliyszRCUUAAAAAAOgAAAAAIAACAAAADNAN3CJ8HBWviOENyMMyYHNvUv/rYOdZo52xptl3le3iAAAADPla1XmBtEdxUhGbJKBDBGbrqKW5NgNqRye29kuiG5QEAAAACcFf979fHlPnrw4z+g0dlAFYNyLLC9wdGi3X4b+9Zd0ImIUIUxe4fykE3oESDiQkdq6wU7sz1ivC9XZAjlxnR5</EncryptedPassword>
+    <History>True|2024-04-25T14:26:47.2926443Z;True|2024-04-25T17:21:33.4627082+03:00;True|2024-04-25T17:12:35.5516594+03:00;True|2024-04-25T17:07:47.4039736+03:00;True|2024-04-25T17:03:35.6477691+03:00;True|2024-04-25T16:46:41.1766561+03:00;True|2024-04-25T16:42:46.8764377+03:00;True|2024-04-25T16:41:22.8588148+03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL5113.site4now.net%3bInitial Catalog=db_a9d164_tutordb%3bUser Id=db_a9d164_tutordb_admin%3bPassword=Tutor%402024</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

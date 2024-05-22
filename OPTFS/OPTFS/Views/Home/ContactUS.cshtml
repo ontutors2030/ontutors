@@ -1,0 +1,48 @@
+﻿<link href="~/css/mystyle.css" rel="stylesheet" />
+
+<section id="contact">
+    <form method="post" action="~/Home/SendEmail">
+        <div class="offset-md-1 col-md-10 contact-form">
+            <div class="c-right">
+                <div class="mb-3 ms-2" style="zoom:70%">
+                    <label for="" class="form-label">Name </label>
+                    <input class="form-control" name="Name" required />
+                </div>
+                <div class="input-group mb-3" style="zoom:70%">
+                    <div class="m-1">
+                        <label for="" class="form-label">Email </label>
+                        <input type="email" class="form-control" name="Email" required />
+                    </div>
+                    <div class="m-1">
+                        <label for="" class="form-label">Phone Number </label>
+                        <input type="tel" class="form-control" name="PhoneNumber" required />
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">
+                        Message
+                    </label>
+                    <textarea class="form-control" id="Message" name="Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn" style="background-color:#004aa9!important">Submit</button>
+            </div>
+            <div class="w-left" style="zoom:70%">
+                <div class="awesome">
+                    <h1>Contact <span class="green-color">Us</span></h1>
+                    <span>
+                        For questions, technical assistance, via the contact
+                        information provided.
+                    </span>
+                </div>
+                <div class="box1" style="padding-left:50px;">
+                    <div class="box1-btn">
+                        <span class="btn-icon"><i class="bi bi-telephone"></i></span><span>+966551957369</span>
+                    </div>
+                    <div class="box1-btn">
+                        <span class="btn-icon"><i class="bi bi-envelope"></i></span><span>ontutors2030@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>

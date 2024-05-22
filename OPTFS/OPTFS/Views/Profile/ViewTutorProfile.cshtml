@@ -1,0 +1,98 @@
+﻿@model OPTFS.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Tutor Profile";
+}
+<h1>Tutor Profile</h1>
+<hr />
+<!--<div class="row">
+    <div class="container d-flex justify-content-center mt-5">
+        <div class="card profileCard mb-5">
+            <div class="text-center">
+            <div class="circleImage">
+                <img src="~/@Model.PersonalImageUrl" width="50">
+            </div>
+
+            <span class="profileDot"></span>
+            <span class="profileName mb-1 trimeEct">@Model?.FullName</span><br/>
+            <small class="text-black-50">@Model?.Specialty?.Name</small>
+            <small class="text-black-50 font-weight-bold">@Model?.Country?.Name - @Model?.City?.Name</small>
+            </div>
+            <div class="text-center" style="padding:5px;">
+                <small class="text-black-50 ">@Model?.Experience</small><br/>
+                <small class="text-black-50">@Model?.Qualifications</small>
+            </div>
+            <div class="location text-center mt-4">
+                <span class="d-block"><i class="fa fa-map-marker profileStart"></i> <small class="text-truncate ml-2">Ganesha Road, preet vihar new delhi </small> </span>
+                <span><i class="fa fa-map-marker profileStop mt-2"></i> <small class="text-truncate ml-2">Mandir Road, Mayur vihar, new delhi</small> </span>
+            </div>
+            <div class="profileRate bg-success py-3 text-white mt-3 text-center">
+                <h6 class="mb-0">Tutor Rate</h6>
+                <div class="profileRating">-->
+
+@*<input type="radio" name="profileRating" value="5" id="5"><label for="5">☆</label>
+    <input type="radio" name="profileRating" value="4" id="4"><label for="4">☆</label>
+    <input type="radio" name="profileRating" value="3" id="3"><label for="3">☆</label>
+    <input type="radio" name="profileRating" value="2" id="2"><label for="2">☆</label>
+    <input type="radio" name="profileRating" value="1" id="1"><label for="1">☆</label>*@
+<!--<input type="text" class="rating" data-size="xs" data-show-clear="false" data-show-caption="false" value="@Model.GetTutorRating()" readonly>
+</div>
+<div class="profileButtons px-4 mt-0">-->
+@*<button class="btn btn-warning btn-block profileRatingSubmit">Submit</button>*@
+<!--</div>
+            </div>
+        </div>
+    </div>
+</div>-->
+<div class="row">
+    <div class="offset-md-3 col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="~/@Model.PersonalImageUrl" style="height:150px;width:150px;" class="img-thumbnail" />
+                        @if (User.IsInRole("Student"))
+                        {
+                            <a asp-controller="Chats" asp-action="OpenChat" asp-route-id="@Model.Id"
+                               class="btn btn-outline-primary" style="width:100%">
+                                <i class="fa fa-comment-o" aria-hidden="true"></i> Chat
+                            </a>
+                        }
+                    </div>
+
+                    <div class="col-md-9">
+                        <div class="row text-center">
+                            @*<h4 class="m-t-0 m-b-0"><strong>@Model.FullName</strong></h4>*@
+                            <b class="trimeEct">@Model?.FullName</b>
+                            <div class="text-center" style="margin:0px;padding:0px;">
+                                <input type="text" class="rating" data-size="xs" data-show-clear="false" data-show-caption="false" value="@Model.GetTutorRating()" readonly>
+                            </div>
+                        </div>
+                        <div>
+                            <p>
+                                @Model.Specialty.Name<br />
+                                @Model.Country.Name - @Model.City.Name<br />
+                                @Model.Experience<br />
+                                @Model.Qualifications
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class="row">
+        @if (Model.Courses != null && Model.Courses.Count > 0)
+        {
+            foreach (var course in Model.Courses)
+            {
+                <div class="col-md-6">
+                    @await Html.PartialAsync("CoursePartial", course)
+                </div>
+            }
+        }
+    </div>
+</div>

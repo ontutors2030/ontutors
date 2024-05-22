@@ -1,0 +1,41 @@
+﻿@model IEnumerable<OPTFS.Models.Notification>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="pageHeader">
+    <h1 class="boldItalicText">Notifications Page</h1>
+</div>
+
+<br />
+<div class="text-center">
+    <nav class="nav nav-pills nav-fill">
+        <a class="nav-link active" id="newDiv" aria-current="page" href="javascript:void(0)" onclick="loadNotifications(true);">New Nofications</a>
+        <a class="nav-link" id="allDiv" href="javascript:void(0)" onclick="loadNotifications(false);">All Nofications</a>
+    </nav>
+</div>
+<br />
+<div id="notificationsDiv">
+
+</div>
+
+@section Scripts{
+    <script>
+        $(document).ready(function () {
+            loadNotifications(true);
+        });
+
+        function loadNotifications(New) {
+            $("#notificationsDiv").load("../Notifications/NotificationsPartial?New=" + New);
+            if (New == true) {
+                $("#newDiv").addClass("active");
+                $("#allDiv").removeClass("active");
+            }
+            else {
+                $("#newDiv").removeClass("active");
+                $("#allDiv").addClass("active");
+            }
+        }
+    </script>
+}

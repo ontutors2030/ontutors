@@ -1,0 +1,571 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\OPTFS\\OPTFS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\studentrequests\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\studentrequests\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\subjects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\subjects\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\subjects\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\subjects\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\subjects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\subjects\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\subjects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\subjects\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\subjects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\subjects\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\home\\contactus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\optfs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\optfs.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\home\\aboutus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\wwwroot\\css\\mystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\wwwroot\\css\\mystyle.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\profile\\tutorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\profile\\tutorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\areas\\identity\\pages\\account\\manage\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\courses\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\courses\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\controllers\\chatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\controllers\\chatscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\chats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\chats\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\realtimechat\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\realtimechat\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\profile\\viewtutorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\profile\\viewtutorprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\profile\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\profile\\viewprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\shared\\coursepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\shared\\coursepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\views\\countries\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\views\\countries\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|c:\\optfs\\optfs\\optfs\\data\\migrations\\20240417021141_mig027.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F8A8BC2E-7DE0-48A9-BF92-E63ADF49FE40}|OPTFS\\OPTFS.csproj|solutionrelative:optfs\\data\\migrations\\20240417021141_mig027.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADkDAAAAAAAAAAAAAEgDAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T21:50:48.923Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T00:39:14.172Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "OPTFS\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAYwK0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T01:14:05.914Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\StudentRequests\\Details.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\StudentRequests\\Details.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\StudentRequests\\Details.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\StudentRequests\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T02:48:19.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Subjects\\Delete.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Subjects\\Delete.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Subjects\\Delete.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Subjects\\Delete.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T00:15:11.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Subjects\\Details.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Subjects\\Details.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Subjects\\Details.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Subjects\\Details.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T00:14:52.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Subjects\\Create.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Subjects\\Create.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Subjects\\Create.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Subjects\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T01:13:50.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Subjects\\Index.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Subjects\\Index.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Subjects\\Index.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Subjects\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-18T00:13:56.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "OPTFS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "OPTFS\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAAwJYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T23:40:38.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Subjects\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Subjects\\Edit.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Subjects\\Edit.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Subjects\\Edit.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAAADAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T01:14:00.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Program.cs",
+              "RelativeDocumentMoniker": "OPTFS\\Program.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Program.cs",
+              "RelativeToolTip": "OPTFS\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T23:54:57.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CitiesController.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\CitiesController.cs",
+              "RelativeDocumentMoniker": "OPTFS\\Controllers\\CitiesController.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\CitiesController.cs",
+              "RelativeToolTip": "OPTFS\\Controllers\\CitiesController.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAADwv64AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-17T23:34:14.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "OPTFS\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "OPTFS\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAIwI8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T00:28:49.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "mystyle.css",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\wwwroot\\css\\mystyle.css",
+              "RelativeDocumentMoniker": "OPTFS\\wwwroot\\css\\mystyle.css",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\wwwroot\\css\\mystyle.css",
+              "RelativeToolTip": "OPTFS\\wwwroot\\css\\mystyle.css",
+              "ViewState": "AQIAADYAAAAAAAAAAAAiwEIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-12T23:00:40.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ContactUS.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Home\\ContactUS.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Home\\ContactUS.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Home\\ContactUS.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Home\\ContactUS.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-12T23:13:18.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "OPTFS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "OPTFS\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAJUAAAAAAAAAAAAcwKMAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T01:02:17.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "RelativeToolTip": "OPTFS\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAADoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T01:14:02.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AboutUS.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Home\\AboutUS.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Home\\AboutUS.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Home\\AboutUS.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Home\\AboutUS.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T21:50:49.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "OPTFS\\Controllers\\PaymentController.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "OPTFS\\Controllers\\PaymentController.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:58:58.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OPTFS",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\OPTFS.csproj",
+              "RelativeDocumentMoniker": "OPTFS\\OPTFS.csproj",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\OPTFS.csproj",
+              "RelativeToolTip": "OPTFS\\OPTFS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-13T00:14:37.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "OPTFS\\Models\\Course.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Models\\Course.cs",
+              "RelativeToolTip": "OPTFS\\Models\\Course.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAE0AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T00:00:02.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240417021141_mig027.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Data\\Migrations\\20240417021141_mig027.cs",
+              "RelativeDocumentMoniker": "OPTFS\\Data\\Migrations\\20240417021141_mig027.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Data\\Migrations\\20240417021141_mig027.cs",
+              "RelativeToolTip": "OPTFS\\Data\\Migrations\\20240417021141_mig027.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T02:11:41.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TutorProfile.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Profile\\TutorProfile.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Profile\\TutorProfile.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Profile\\TutorProfile.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Profile\\TutorProfile.cshtml",
+              "ViewState": "AQIAAHsAAAAAAAAAAAAAAIAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T01:14:08.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "OPTFS\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "OPTFS\\Controllers\\CoursesController.cs",
+              "ViewState": "AQIAAN0AAAAAAAAAAAAmwPoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T00:01:54.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Courses\\Create.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Courses\\Create.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Courses\\Create.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Courses\\Create.cshtml",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAowKcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T01:12:24.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Chats\\Index.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Chats\\Index.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Chats\\Index.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Chats\\Index.cshtml",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAowJAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T00:55:14.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "OPTFS\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "OPTFS\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAQwOMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T00:44:05.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Courses\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Courses\\Edit.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Courses\\Edit.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Courses\\Edit.cshtml",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAowKgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T00:08:35.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ChatsController.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\ChatsController.cs",
+              "RelativeDocumentMoniker": "OPTFS\\Controllers\\ChatsController.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Controllers\\ChatsController.cs",
+              "RelativeToolTip": "OPTFS\\Controllers\\ChatsController.cs",
+              "ViewState": "AQIAAL0AAAAAAAAAAAAowMoAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:58:58.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\RealtimeChat\\ChatHub.cs",
+              "RelativeDocumentMoniker": "OPTFS\\RealtimeChat\\ChatHub.cs",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\RealtimeChat\\ChatHub.cs",
+              "RelativeToolTip": "OPTFS\\RealtimeChat\\ChatHub.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAADYAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T21:58:58.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CoursePartial.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Shared\\CoursePartial.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Shared\\CoursePartial.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Shared\\CoursePartial.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Shared\\CoursePartial.cshtml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T00:08:03.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ViewProfile.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Profile\\ViewProfile.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Profile\\ViewProfile.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Profile\\ViewProfile.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Profile\\ViewProfile.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T00:35:39.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ViewTutorProfile.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Profile\\ViewTutorProfile.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Profile\\ViewTutorProfile.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Profile\\ViewTutorProfile.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Profile\\ViewTutorProfile.cshtml",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAADYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-16T21:50:49.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Countries\\Edit.cshtml",
+              "RelativeDocumentMoniker": "OPTFS\\Views\\Countries\\Edit.cshtml",
+              "ToolTip": "C:\\OPTFS\\OPTFS\\OPTFS\\Views\\Countries\\Edit.cshtml",
+              "RelativeToolTip": "OPTFS\\Views\\Countries\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T00:09:53.072Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

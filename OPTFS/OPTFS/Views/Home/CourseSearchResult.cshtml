@@ -1,0 +1,14 @@
+﻿@model IEnumerable<OPTFS.Models.Course>
+
+<div class="row">
+    @if (Model != null && Model.Count() > 0)
+    {
+        foreach (var course in Model)
+        {
+            <div class="col-md-6">
+                @await Html.PartialAsync("CoursePartial", course)
+                <br />
+            </div>
+        }
+    }
+</div>

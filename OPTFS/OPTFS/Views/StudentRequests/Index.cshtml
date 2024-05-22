@@ -1,0 +1,52 @@
+﻿@model IEnumerable<OPTFS.Models.StudentRequest>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="pageHeader">
+    <h1 class="boldItalicText">Students Requests Page</h1>
+</div>
+
+<input class="ListInput col-md-11 form-control" type="text" placeholder="Search Here" />
+<br />
+<table class="ListTable table table-bordered table-hover table-sm">
+    <thead class="datagridheader">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Student)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Course)
+            </th>
+            @*<th>
+                    @Html.DisplayNameFor(model => model.PaymentMethodId)
+                </th>*@
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="tr">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Student.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Course.Name)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.PaymentMethodId)
+                    </td>*@
+                <td>
+                    @if (item.StatusId == (int)StudentRequestStatus.New)
+                    {
+                        <a asp-controller="StudentRequests" asp-action="AcceptRequest" asp-route-id="@item.Id" class='btn btn-success'>Accept</a>
+                        <a asp-controller="StudentRequests" asp-action="RejectRequest" asp-route-id="@item.Id" class='btn btn-danger'>Reject</a>
+                    }
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

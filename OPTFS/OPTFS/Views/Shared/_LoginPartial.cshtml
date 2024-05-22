@@ -1,0 +1,61 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using static OPTFS.Data.ApplicationDbContext
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav flex-grow-1 fw-bold homePageUL">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        var myUser = await UserManager.GetUserAsync(User);
+        string SiteName = "My Profile";
+        if (User.IsInRole("Tutor"))
+        {
+            SiteName = "Edit Profile";
+        }
+        <li class="nav-item" id="profileNavItem">
+            <a class="nav-link " asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><br />@SiteName</a>
+        </li>
+        <li class="nav-item" id="logoutNavItem">
+            <br />
+            <div class="dropdown">
+                <a href="javascripy:void(0)" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="~/@myUser.PersonalImageUrl" style="height: 30px; width: 30px;" class="logoSM rounded-circle" />
+                </a>
+                <div class="dropdown-menu" style="padding:5px !important;">
+                    <div class="text-center" style="padding: 0px 5px 0px 5px">
+                        <img src="~/@myUser.PersonalImageUrl" class="logoMD rounded-circle" />
+                        <br />
+                        <strong>@myUser.FullName</strong>
+                    </div>
+                    
+                    <ul style="list-style: none; padding-left: 0rem;">
+                        <li style="padding: 0px !important; height: auto !important;">
+                            <a class="dropdown-item" asp-controller="home" asp-action="Logout"
+                               asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                Logout
+                            </a>
+                        </li>
+                    </ul>
+
+                    @*<ul style="list-style: none; padding-left: 1rem;">
+                        <li style="padding:0px !important;">
+                            <a asp-controller="home" asp-action="Logout"
+                               asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                Logout
+                            </a>
+                        </li>
+                    </ul>*@
+                </div>
+            </div>
+        </li>
+    }
+    else
+    {
+        @*<li class="nav-item">
+                    <a class="nav-link " asp-area="Identity" asp-page="/Account/Register">Register</a>
+            </li>*@
+        <li class="nav-item" id="loginNavItem">
+            <a class="nav-link " asp-area="Identity" asp-page="/Account/Login"><br />Login</a>
+        </li>
+    }
+</ul>

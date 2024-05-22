@@ -1,0 +1,144 @@
+﻿@model OPTFS.Models.ApplicationUser
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Tutor Profile";
+}
+
+<h1>Tutor Profile</h1>
+
+<h4>Tutor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-6">
+        <form asp-controller="Profile" asp-action="updateTutorProfile" method="post" enctype="multipart/form-data">
+            <div class="col-md-12">
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="FullName" class="form-control" />
+                    <label asp-for="FullName">Full Name</label>
+                    <span asp-validation-for="FullName" class="text-danger"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Email" class="form-control" autocomplete="username" aria-required="true" 
+                           placeholder="name@example.com" disabled />
+                    <label asp-for="Email">Email</label>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                @*<div class="form-floating mb-3">
+                        <input asp-for="Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                        <label asp-for="Password">Password</label>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>*@
+
+                <div class="form-floating mb-3">
+                    <select asp-for="SpecialtyId" class="form-control" asp-items="ViewBag.SpecialtyId" disabled></select>
+                    <label asp-for="SpecialtyId" class="control-label"></label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <select asp-for="CountryId" class="form-control" asp-items="ViewBag.CountryId" disabled></select>
+                    <label asp-for="CountryId" class="control-label"></label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <select asp-for="CityId" class="form-control" asp-items="ViewBag.CityId" disabled></select>
+                    <label asp-for="CityId" class="control-label"></label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" asp-for="Experience" name="Experience" row="7"></textarea>
+                    <label asp-for="Experience" class="control-label"></label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" asp-for="Qualifications" name="Qualifications" row="7"></textarea>
+                    <label asp-for="Qualifications" class="control-label"></label>
+                </div>
+
+                <div class="mb-3">
+                    <label for="uploadFiles" class="form-label">Qualifications Attachements</label>
+                    <input class="form-control" type="file" id="uploadFiles" multiple @*accept="image/*"*@
+                           onchange="checkFileUploadExt(this);" accept=".png,.jpg,.jpeg,.gif,.jfif"
+                           name="uploadFiles" />
+                </div>
+                @{
+                    var myUser = await UserManager.GetUserAsync(User);
+                    if (myUser.IsTutorConfirmed == false)
+                    {
+                    }
+                }
+                <div class="row">
+                    <div class="offset-md-3 col-md-4">
+                        <button id="saveSubmit" type="submit" class="w-100 btn btn-lg defaultBtn">Save</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="col-md-6">
+        <h4>Qualifications Attachements</h4>
+        <div class="row">
+            @if (Model.UserFiles != null && Model.UserFiles.Count > 0)
+            {
+                foreach (var file in Model.UserFiles)
+                {
+                    string divId="file"+file.Id;
+                    <div class="col-md-4" id='@divId'>
+                        <img src="~/@file.Url" class="img-thumbnail" style="height:200px" />
+                        <br/>
+                        <a href="javascript:void(0)" class="btn btn-danger" onclick="deleteFile(@file.Id)">
+                            Remove
+                        </a>
+                        <br/>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script>
+        function checkFileUploadExt(fileId) {
+            var control = document.getElementById("uploadFiles");
+            //var filelength = control.files.length;
+            var allowedTypes = ['image/jpg', 'image/png', 'image/jpeg', 'image/gif', 'image/jfif'];
+
+            for (var i = 0; i < control.files.length; i++) {
+                var file = control.files[i];
+                console.log(file.type);
+                if (!allowedTypes.includes(file.type)) {
+                    alert('Invalid file type. Please upload a Images only');
+                    document.getElementById('uploadFiles').value = '';
+                    break;
+                }
+                else {
+                    const fSize = file.size;
+                    const fSizeInKB = Math.round((fSize / 1024));
+                    // The size of the file.
+                    if (fSizeInKB >= 32768) {
+                        alert("File too Big, please select a file less than 4mb");
+                        break;
+                    } /*else if (fSizeInKB < 2048) {
+                                        alert("File too small, please select a file greater than 2mb");
+                                        break;
+                                    }*/
+                }
+            }
+        }
+
+        function deleteFile(fileId) {
+            $.post('../Profile/DeleteFile', { 'id': fileId }, function (response) {                
+                if (response == 100) {
+                    var divId = "#file" + fileId
+                    $(divId).fadeOut();
+                }
+            });
+        }
+    </script>
+}

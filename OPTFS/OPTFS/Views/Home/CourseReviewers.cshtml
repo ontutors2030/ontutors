@@ -1,0 +1,76 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model OPTFS.Models.Course
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@{
+    ViewData["Title"] = "CourseReviewers";
+    var myUser = await UserManager.GetUserAsync(User);
+    var course = Model;
+    var courseReviews = Model?.GetReviews();
+    var reviews = courseReviews?.Where(r=>r.StudentId!=myUser?.Id);
+    var myReview = courseReviews?.Where(r => r.StudentId == myUser?.Id)?.FirstOrDefault();
+}
+
+<h1>@course.Name</h1>
+<div>
+    @await Html.PartialAsync("RatingViewerPartial", Model)
+</div>
+    create by <a href="~/Profile/ViewTutorProfile/@course?.TutorId">@course?.Tutor?.FullName</a>
+    @if (!string.IsNullOrWhiteSpace(course?.Description))
+    {
+        <div>@course.Description</div>
+    }
+
+    <div>
+        @await Html.PartialAsync("RatingLargeViewerPartial", Model)
+    </div>
+    <hr />    
+
+    @if (true)
+    {
+        <div class="row">
+            @{int i = 0;
+                @if (User.IsInRole("Student"))
+                {
+                    if (myReview != null)
+                    {
+                        <div class="col-md-4">
+                            @await Html.PartialAsync("ReviewPartial", myReview)
+                        </div>
+                        i++;
+                    }
+                    else if (myUser.HasCourse(course.Id))
+                    {
+                        <form action="~/home/CreateReview" method="post">
+                            <input type="hidden" id="CourseId" name="CourseId" value="@course.Id" />
+                            <div class="form-group">
+                                <label for="ReviewText">Your Review:</label>
+                                <input type="text" class="rating" id="Rating" name="Rating"
+                                       data-size="xs" data-show-clear="true" data-show-caption="true">
+                                <textarea class="form-control" id="ReviewText" name="ReviewText" rows="3" required></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="offset-md-10 col-md-2">
+                                    <input type="submit" class="btn btn-primary" value="Post" />
+                                </div>
+                            </div>                            
+                        </form>
+                    }
+                }
+                if (reviews != null)
+                {
+                    foreach (var review in reviews)
+                    {
+                        <div class="col-md-4">
+                            @await Html.PartialAsync("ReviewPartial", review)
+                        </div>
+                        i++;
+                        if (i % 3 == 0)
+                        {
+                            <br />
+                        }
+                    }
+                }
+            }
+        </div>
+    }
